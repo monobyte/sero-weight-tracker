@@ -8,7 +8,7 @@ motivated with gentle encouragement.
 Install in **Sero → Admin → Plugins** with:
 
 ```text
-git:https://github.com/monobyte/sero-weight-tracker-plugin.git
+git:https://github.com/monobyte/sero-weight-tracker.git
 ```
 
 Sero clones the source repo, installs its dependencies locally, builds the UI,
@@ -19,7 +19,7 @@ and then hot-loads the plugin into the sidebar.
 Install as a Pi package:
 
 ```bash
-pi install git:https://github.com/monobyte/sero-weight-tracker-plugin.git
+pi install git:https://github.com/monobyte/sero-weight-tracker.git
 ```
 
 The agent gains a `weight` tool (log, list, remove, goal, status, clear) and a
