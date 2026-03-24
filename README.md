@@ -19,7 +19,7 @@ and then hot-loads the plugin into the sidebar.
 Install as a Pi package:
 
 ```bash
-pi install npm:@sero-ai/plugin-weight-tracker
+pi install git:https://github.com/monobyte/sero-weight-tracker-plugin.git
 ```
 
 The agent gains a `weight` tool (log, list, remove, goal, status, clear) and a
