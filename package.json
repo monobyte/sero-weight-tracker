@@ -2,6 +2,7 @@
   "name": "@sero-ai/plugin-weight-tracker",
   "version": "0.1.1",
   "description": "Weight tracker app for Sero — track progress, visualise trends, stay motivated",
+  "type": "module",
   "keywords": [
     "pi-package"
   ],
