@@ -12,6 +12,7 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { StringEnum } from '@earendil-works/pi-ai';
+import type { AgentToolResult } from '@earendil-works/pi-agent-core';
 import type { ExtensionAPI } from '@earendil-works/pi-coding-agent';
 import { Text } from '@earendil-works/pi-tui';
 import { Type } from 'typebox';
@@ -156,7 +157,7 @@ export default function (pi: ExtensionAPI) {
       }
       statePath = resolvedPath;
 
-      const dispatch = async (state: WeightTrackerState) => {
+      const dispatch = async (state: WeightTrackerState): Promise<AgentToolResult<unknown>> => {
       if (params.unit) {
         state.unit = params.unit;
       }
